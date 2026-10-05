@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "results.html"
+        ],
+        "createdAt": "2026-10-05T04:01:29.636Z",
+        "reason": "Agent source review: assets/site.css gives intro 40px vertical padding (32px/24px on mobile), review-grid 56px (40px on mobile), and their inner containers at least 22px horizontal gutters. More-reviews summary has 20px vertical padding and review children have 24px/32px top padding. All three reported edges already inset their text; preserve the existing layout."
+      }
+    ]
+  }
+}
