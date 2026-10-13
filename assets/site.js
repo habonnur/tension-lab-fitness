@@ -32,19 +32,16 @@
   }
 
   const config = window.TENSION_LAB_CONFIG || {};
-  const contactEmail = String(config.contactEmail || "hello@example.com").trim();
-  const isPlaceholder = config.contactIsPlaceholder !== false
-    || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)
-    || /@example\.(com|org|net)$/i.test(contactEmail);
-
-  document.querySelectorAll("[data-email-text]").forEach((element) => {
-    element.textContent = contactEmail;
-  });
-  document.querySelectorAll("[data-placeholder-note]").forEach((element) => {
-    element.hidden = !isPlaceholder;
+  const contactEmail = String(config.contactEmail || "").trim();
+  const hasEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(contactEmail)
+    && !/@example\.(com|org|net)$/i.test(contactEmail);
+  const configuredPhone = String(config.contactPhone || "").trim();
+  const contactPhone = /^\+[1-9]\d{7,14}$/.test(configuredPhone) ? configuredPhone : "+14082027994";
+  document.querySelectorAll("[data-phone-link]").forEach((link) => {
+    link.href = `tel:${contactPhone}`;
   });
   document.querySelectorAll("[data-email-link]").forEach((link) => {
-    link.hidden = isPlaceholder;
+    link.hidden = !hasEmail;
     link.href = `mailto:${contactEmail}`;
   });
 
@@ -57,8 +54,9 @@
   const draftText = document.querySelector("#draft-text");
   const copyButton = document.querySelector("#copy-inquiry");
   const emailDraftLink = document.querySelector("#email-inquiry");
+  const textDraftLink = document.querySelector("#text-inquiry");
 
-  if (!prepareButton || !status || !panel || !draftText || !copyButton || !emailDraftLink) return;
+  if (!prepareButton || !status || !panel || !draftText || !copyButton || !emailDraftLink || !textDraftLink) return;
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -79,7 +77,7 @@
       "I am interested in strength coaching.",
       "",
       `Name: ${value("name")}`,
-      `Email: ${value("email")}`,
+      ...(value("email") ? [`Email: ${value("email")}`] : []),
       `Training experience: ${value("experience") || "Not specified"}`,
       `Availability: ${value("availability") || "To discuss"}`,
       "",
@@ -89,11 +87,12 @@
 
     draftText.value = body;
     panel.hidden = false;
-    emailDraftLink.hidden = isPlaceholder;
+    emailDraftLink.hidden = !hasEmail;
     emailDraftLink.href = `mailto:${contactEmail}?subject=${encodeURIComponent("Strength coaching inquiry")}&body=${encodeURIComponent(body)}`;
-    status.textContent = isPlaceholder
-      ? "Your inquiry is ready to copy. The contact email is a placeholder, so this draft site does not send messages."
-      : "Your inquiry is ready. Open your email app to send it to Sam. Nothing has been sent yet.";
+    const smsSeparator = /iPad|iPhone|iPod/.test(navigator.userAgent) ? "&" : "?";
+    textDraftLink.href = `sms:${contactPhone}${smsSeparator}body=${encodeURIComponent(body)}`;
+    status.textContent = "Your inquiry is ready. Open a text message or copy it to send to Sam. Nothing has been sent yet.";
+    draftText.focus();
   });
 
   form.addEventListener("input", (event) => {

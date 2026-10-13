@@ -1,0 +1,8 @@
+{
+  "source": "OpenAI built-in image generation, October 12, 2026",
+  "role": "Illustrative campaign image, not a client or trainer photograph",
+  "reference": "User-approved condensed-heading mockup from this conversation",
+  "prompt": "Use case: photorealistic-natural. Create a standalone website hero photograph matching the attached approved web mockup. The attachment is a composition and lighting reference. Remove ALL web interface elements: no headings, letters, navigation, buttons, bands, lines, labels, logos, watermark, or text of any kind. Produce ONLY the underlying gym photograph, full bleed, wide landscape 16:9. Scene: athletic adult woman with tied-back dark hair performing a barbell deadlift in a normal shared strength gym. Place her and the full barbell in the RIGHT half of the composition with visible shoes and both plates; the LEFT 48 percent is dark softly focused real gym equipment and negative space for HTML text. Natural realistic proportions and correct grip, relaxed neutral spine. Black gym clothes. Premium editorial sports photography, slightly desaturated charcoal tones, directional soft light, natural skin texture, restrained contrast and deep shadows. No recognizable brand signage anywhere. This is illustrative campaign imagery, not a named client, coach, or a before-and-after photo.",
+  "derivatives": ["strength-hero-960.webp"],
+  "processing": "WebP compression and proportional resizing only"
+}

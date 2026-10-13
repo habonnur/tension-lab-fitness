@@ -1,23 +1,33 @@
-# Full site extension
+# Complete Tension Lab Fitness site
 
-Targets: index.html, coaching.html, results.html, about.html, contact.html, 404.html.
+Targets: index.html, method.html, coaching.html, results.html, about.html, contact.html, 404.html.
 
-Mode: Persuade.
+Mode: Persuade. Code-led extension of an existing static site into the user's pinned visual direction.
+
+## Confirmed direction
+
+On October 12, 2026, the user chose “Use this chat’s condensed-heading mockup” over the older black/white Helvetica draft. This latest instruction supersedes earlier palette and typography constraints. The user explicitly requested building the full website and putting it on GitHub.
 
 ## Direction contract
 
-THESIS: Extend the approved Results page into a complete strength-coaching website. Real client evidence and clear coaching information lead; oversized slogans and decorative metrics do not.
+THESIS: Make Sam's strength coaching in Long Beach clear, show real client results, and give prospective clients a direct next step.
 
-OWN-WORLD: Pure white, near-black, gray, Helvetica Neue, square buttons, restrained borders, and generous but purposeful spacing. Photographs remain the main visual material.
+OWN-WORLD: Near-black #0b0b0c and warm ivory #f2f0e9. Self-hosted Anton for large condensed uppercase headings. Barlow Condensed for wordmark, labels, and square CTA buttons; Helvetica for body text. Large training imagery, flat surfaces, fine dividers, no orange or blue CTA.
 
-STORY: Understand that Sam provides strength coaching in Long Beach, recognize the coaching qualities in genuine reviews, inspect transformations, and prepare an inquiry.
+STORY: Identify the coaching, understand Assess / Program / Coach / Adapt, inspect genuine transformations and reviews, then contact Sam.
 
-FIRST VIEWPORT: The homepage pairs a short strength-coaching headline and a visible contact action with a large workout photograph. Interior pages use compact introductions and expose their main content promptly.
+FIRST VIEWPORT: Dark full-width training scene with athlete on the right and “Built for the work.” on the left. Direct explanation, ivory Apply for coaching button, outlined Explore the method action. On narrow screens text and image stack for readability. The method strip continues on ivory.
 
-FORM: Code extension of the established site and the previously accepted photograph-led homepage direction. No replacement identity or open concept tournament. The seed helper's initial attempt required a product record; this extension does not use a seed assignment.
+FORM: Existing site adapted to the user-pinned mockup, with no open direction selection or concept-seed assignment. Semantic HTML, one restrained hero reveal, reduced-motion support, existing navigation and FAQ behavior.
 
-FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, DESIGN.md, and every shipping raster carrying its provenance
+FINISH: Review desktop (1440px), mobile (390px), and the user's homepage viewport (692px) from local HTTP screenshots. Retain real review photos; the campaign hero is generated illustration, never described as a real client. Record asset origins, update design documentation, then push to GitHub.
 
-## Evidence limitations
+## Contact and evidence
 
-The previous browser local-file navigation denial must not be bypassed with a server or alternate renderer. The user has not requested tests, so do not run them. Source and original asset inspection are available; rendered desktop/mobile approval must not be claimed.
+The public Google business listing showed (408) 202-7994 on October 12, 2026. Call and visitor-controlled SMS inquiry links use it. Sam's email or booking link remains optional and unprovided. The form never claims a message has been sent. No implementation tests were requested; build packaging and visual inspection are in scope.
+
+## Visual reference
+
+Approved chat mockup: /Users/habonnur/.codex/generated_images/01a10951-acda-7683-b47b-b314883a6955/exec-e2c4d2be-be68-41d6-8e72-8df9d7287f85.png
+
+Reference supplies typography character, palette, image composition, and CTA treatment. Factual copy is adapted to confirmed personal coaching with Sam. Stale ratings are linked as Google reviews rather than presented as a live count.

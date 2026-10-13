@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-05T03:56:43Z",
+  "generatedAt": "2026-10-13T01:29:25Z",
   "title": "Design System: Tension Lab Fitness",
   "extensions": {
     "colorMeta": {
@@ -20,58 +20,58 @@
       },
       "ivory": {
         "role": "neutral",
-        "displayName": "Pure white",
+        "displayName": "Warm ivory",
         "tonalRamp": [
-          "oklch(15% 0.00000 0.00)",
-          "oklch(26% 0.00000 0.00)",
-          "oklch(38% 0.00000 0.00)",
-          "oklch(49% 0.00000 0.00)",
-          "oklch(61% 0.00000 0.00)",
-          "oklch(72% 0.00000 0.00)",
-          "oklch(84% 0.00000 0.00)",
-          "oklch(95% 0.00000 0.00)"
+          "oklch(15% 0.00955 93.57)",
+          "oklch(26% 0.00955 93.57)",
+          "oklch(38% 0.00955 93.57)",
+          "oklch(49% 0.00955 93.57)",
+          "oklch(61% 0.00955 93.57)",
+          "oklch(72% 0.00955 93.57)",
+          "oklch(84% 0.00955 93.57)",
+          "oklch(95% 0.00955 93.57)"
         ]
       },
       "gray": {
         "role": "neutral",
         "displayName": "Supporting gray",
         "tonalRamp": [
-          "oklch(15% 0.00472 286.22)",
-          "oklch(26% 0.00472 286.22)",
-          "oklch(38% 0.00472 286.22)",
-          "oklch(49% 0.00472 286.22)",
-          "oklch(61% 0.00472 286.22)",
-          "oklch(72% 0.00472 286.22)",
-          "oklch(84% 0.00472 286.22)",
-          "oklch(95% 0.00472 286.22)"
+          "oklch(15% 0.00798 97.48)",
+          "oklch(26% 0.00798 97.48)",
+          "oklch(38% 0.00798 97.48)",
+          "oklch(49% 0.00798 97.48)",
+          "oklch(61% 0.00798 97.48)",
+          "oklch(72% 0.00798 97.48)",
+          "oklch(84% 0.00798 97.48)",
+          "oklch(95% 0.00798 97.48)"
         ]
       },
       "gray-light": {
         "role": "neutral",
-        "displayName": "Light gray",
+        "displayName": "Light supporting gray",
         "tonalRamp": [
-          "oklch(15% 0.00565 286.26)",
-          "oklch(26% 0.00565 286.26)",
-          "oklch(38% 0.00565 286.26)",
-          "oklch(49% 0.00565 286.26)",
-          "oklch(61% 0.00565 286.26)",
-          "oklch(72% 0.00565 286.26)",
-          "oklch(84% 0.00565 286.26)",
-          "oklch(95% 0.00565 286.26)"
+          "oklch(15% 0.00978 100.02)",
+          "oklch(26% 0.00978 100.02)",
+          "oklch(38% 0.00978 100.02)",
+          "oklch(49% 0.00978 100.02)",
+          "oklch(61% 0.00978 100.02)",
+          "oklch(72% 0.00978 100.02)",
+          "oklch(84% 0.00978 100.02)",
+          "oklch(95% 0.00978 100.02)"
         ]
       },
       "line": {
         "role": "neutral",
         "displayName": "Light rule",
         "tonalRamp": [
-          "oklch(15% 0.00411 286.31)",
-          "oklch(26% 0.00411 286.31)",
-          "oklch(38% 0.00411 286.31)",
-          "oklch(49% 0.00411 286.31)",
-          "oklch(61% 0.00411 286.31)",
-          "oklch(72% 0.00411 286.31)",
-          "oklch(84% 0.00411 286.31)",
-          "oklch(95% 0.00411 286.31)"
+          "oklch(15% 0.01098 100.85)",
+          "oklch(26% 0.01098 100.85)",
+          "oklch(38% 0.01098 100.85)",
+          "oklch(49% 0.01098 100.85)",
+          "oklch(61% 0.01098 100.85)",
+          "oklch(72% 0.01098 100.85)",
+          "oklch(84% 0.01098 100.85)",
+          "oklch(95% 0.01098 100.85)"
         ]
       },
       "line-dark": {
@@ -104,7 +104,7 @@
       },
       "photo-frame": {
         "role": "neutral",
-        "displayName": "Photo backing",
+        "displayName": "Photo frame",
         "tonalRamp": [
           "oklch(15% 0.00381 286.10)",
           "oklch(26% 0.00381 286.10)",
@@ -172,6 +172,20 @@
           "oklch(95% 0.00000 0.00)"
         ]
       },
+      "dark-section-hover": {
+        "role": "neutral",
+        "displayName": "Dark-section hover",
+        "tonalRamp": [
+          "oklch(15% 0.01258 91.53)",
+          "oklch(26% 0.01258 91.53)",
+          "oklch(38% 0.01258 91.53)",
+          "oklch(49% 0.01258 91.53)",
+          "oklch(61% 0.01258 91.53)",
+          "oklch(72% 0.01258 91.53)",
+          "oklch(84% 0.01258 91.53)",
+          "oklch(95% 0.01258 91.53)"
+        ]
+      },
       "disabled": {
         "role": "neutral",
         "displayName": "Disabled surface",
@@ -190,19 +204,19 @@
     "typographyMeta": {
       "display": {
         "displayName": "Homepage display",
-        "purpose": "Homepage strength-coaching headline."
+        "purpose": "Anton homepage headline with explicit line breaks."
       },
       "page-title": {
         "displayName": "Page title",
-        "purpose": "Interior page introductions."
+        "purpose": "Anton interior page introductions."
       },
       "headline": {
         "displayName": "Section headline",
-        "purpose": "Main section headings."
+        "purpose": "Anton section headings."
       },
       "title": {
         "displayName": "Row title",
-        "purpose": "Explanatory row headings."
+        "purpose": "Barlow Condensed explanatory row headings."
       },
       "body": {
         "displayName": "Body",
@@ -212,21 +226,30 @@
         "displayName": "Lead",
         "purpose": "Introductory supporting copy."
       },
-      "label": {
-        "displayName": "Label",
-        "purpose": "Navigation, attribution, and compact supporting labels."
-      },
       "button": {
         "displayName": "Button label",
-        "purpose": "Primary, outline, and light actions."
+        "purpose": "Uppercase Barlow Condensed primary, outline, and light actions."
       },
       "review": {
         "displayName": "Review",
         "purpose": "Attributed client-review columns."
+      },
+      "navigation": {
+        "displayName": "Navigation",
+        "purpose": "Uppercase Barlow Condensed page links."
+      },
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "Uppercase Barlow Condensed brand name."
       }
     },
     "shadows": [],
     "motion": [
+      {
+        "name": "hero-arrival",
+        "value": "950ms cubic-bezier(.16,1,.3,1) both; clip-path: inset(0 1.5% 0 0) to inset(0)",
+        "purpose": "Homepage image reveal, enabled only for prefers-reduced-motion: no-preference."
+      },
       {
         "name": "control-color",
         "value": "background-color 150ms ease, border-color 150ms ease",
@@ -244,7 +267,7 @@
       },
       {
         "name": "reduced-motion",
-        "value": "transition: none !important; scroll-behavior: auto",
+        "value": "transition: none !important; animation: none !important; scroll-behavior: auto",
         "purpose": "The implemented prefers-reduced-motion reduction."
       }
     ],
@@ -266,15 +289,15 @@
       "refersTo": "button-primary",
       "description": "The square main action; display-only sample with the implemented hover, active, focus, and disabled styles.",
       "html": "<button class=\"ds-primary-button\" type=\"button\">Talk to Sam</button>",
-      "css": ".ds-primary-button {display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 12px 22px; border: 1px solid var(--ink, #0b0b0c); border-radius: 0; font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); font-size: 14px; font-weight: 600; line-height: 1.4; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; color: var(--ivory, #ffffff); background: var(--ink, #0b0b0c); } .ds-primary-button:hover { background: #29292b; border-color: #29292b; } .ds-primary-button:active { background: #404043; border-color: #404043; } .ds-primary-button:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} .ds-primary-button:disabled { cursor: not-allowed; color: var(--gray, #606063); background: #ededee; border-color: var(--line, #cfcfd2); } @media (prefers-reduced-motion: reduce) { .ds-primary-button { transition: none; } }"
+      "css": ".ds-primary-button {display: inline-flex; justify-content: center; align-items: center; min-height: 52px; padding: 12px 24px; border: 1px solid var(--ink, #0b0b0c); border-radius: 0; font-family: var(--font-label, \"Barlow Condensed\", \"Arial Narrow\", sans-serif); font-size: 19px; letter-spacing: .065em; text-transform: uppercase; font-weight: 600; line-height: 1.4; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; color: var(--ivory, #f2f0e9); background: var(--ink, #0b0b0c); } .ds-primary-button:hover { background: #29292b; border-color: #29292b; } .ds-primary-button:active { background: #404043; border-color: #404043; } .ds-primary-button:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} .ds-primary-button:disabled { cursor: not-allowed; color: var(--gray, #5e5d58); background: #ededee; border-color: var(--line, #cecdc5); } @media (prefers-reduced-motion: reduce) { .ds-primary-button { transition: none; } }"
     },
     {
       "name": "Outline Button",
       "kind": "button",
       "refersTo": "button-outline",
-      "description": "Secondary action on white; an inert button sample matching the outlined link treatment.",
+      "description": "Secondary action on ivory; an inert button sample matching the outlined link treatment.",
       "html": "<button class=\"ds-outline-button\" type=\"button\">See client results</button>",
-      "css": ".ds-outline-button {display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 12px 22px; border: 1px solid var(--ink, #0b0b0c); border-radius: 0; font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); font-size: 14px; font-weight: 600; line-height: 1.4; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; color: var(--ink, #0b0b0c); background: transparent; border-color: var(--line, #cfcfd2); } .ds-outline-button:hover { background: #f2f2f3; border-color: var(--ink, #0b0b0c); } .ds-outline-button:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} @media (prefers-reduced-motion: reduce) { .ds-outline-button { transition: none; } }"
+      "css": ".ds-outline-button {display: inline-flex; justify-content: center; align-items: center; min-height: 52px; padding: 12px 24px; border: 1px solid var(--ink, #0b0b0c); border-radius: 0; font-family: var(--font-label, \"Barlow Condensed\", \"Arial Narrow\", sans-serif); font-size: 19px; letter-spacing: .065em; text-transform: uppercase; font-weight: 600; line-height: 1.4; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; color: var(--ink, #0b0b0c); background: transparent; border-color: var(--line, #cecdc5); } .ds-outline-button:hover { background: #f2f2f3; border-color: var(--ink, #0b0b0c); } .ds-outline-button:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} @media (prefers-reduced-motion: reduce) { .ds-outline-button { transition: none; } }"
     },
     {
       "name": "Light Button",
@@ -282,23 +305,23 @@
       "refersTo": "button-light",
       "description": "The reversed contact action on a dark surface; display-only sample.",
       "html": "<div class=\"ds-light-button-surface\"><button class=\"ds-light-button\" type=\"button\">Contact Sam</button></div>",
-      "css": ".ds-light-button-surface { padding: 24px; color: var(--ivory, #ffffff); background: var(--ink, #0b0b0c); } .ds-light-button {display: inline-flex; justify-content: center; align-items: center; min-height: 48px; padding: 12px 22px; border: 1px solid var(--ink, #0b0b0c); border-radius: 0; font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); font-size: 14px; font-weight: 600; line-height: 1.4; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; color: var(--ink, #0b0b0c); background: var(--ivory, #ffffff); border-color: var(--ivory, #ffffff); } .ds-light-button:hover { background: #e6e6e6; border-color: #e6e6e6; } .ds-light-button:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} @media (prefers-reduced-motion: reduce) { .ds-light-button { transition: none; } }"
+      "css": ".ds-light-button-surface { padding: 24px; color: var(--ivory, #f2f0e9); background: var(--ink, #0b0b0c); } .ds-light-button {display: inline-flex; justify-content: center; align-items: center; min-height: 52px; padding: 12px 24px; border: 1px solid var(--ink, #0b0b0c); border-radius: 0; font-family: var(--font-label, \"Barlow Condensed\", \"Arial Narrow\", sans-serif); font-size: 19px; letter-spacing: .065em; text-transform: uppercase; font-weight: 600; line-height: 1.4; text-decoration: none; text-align: center; cursor: pointer; transition: background-color 150ms ease, border-color 150ms ease; color: var(--ink, #0b0b0c); background: var(--ivory, #f2f0e9); border-color: var(--ivory, #f2f0e9); } .ds-light-button:hover { background: #e6e6e6; border-color: #e6e6e6; } .ds-light-button:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} @media (prefers-reduced-motion: reduce) { .ds-light-button { transition: none; } }"
     },
     {
       "name": "Labeled Text Field",
       "kind": "input",
       "refersTo": "input",
-      "description": "A square, labeled name field; read-only sample with native focus and the existing border states.",
-      "html": "<div class=\"ds-name-field\"><label class=\"ds-name-label\" for=\"ds-name-sample\">Name</label><input class=\"ds-name-input\" id=\"ds-name-sample\" type=\"text\" readonly></div>",
-      "css": ".ds-name-field { display: flex; flex-direction: column; gap: var(--space-2, 8px); min-width: 0; color: var(--ink, #0b0b0c); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-name-label { font-size: 16px; font-weight: 500; line-height: 1.6; } .ds-name-input { width: 100%; min-height: 48px; padding: 12px 14px; color: var(--ink, #0b0b0c); background: var(--ivory, #ffffff); border: 1px solid var(--line, #cfcfd2); border-radius: 0; font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); font-size: 16px; line-height: 1.6; caret-color: var(--ink, #0b0b0c); } .ds-name-input:hover { border-color: var(--gray, #606063); } .ds-name-input:focus { border-color: var(--ink, #0b0b0c); } .ds-name-input:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;}"
+      "description": "A square labeled name field with the implemented hover, focus, and border treatment.",
+      "html": "<div class=\"ds-name-field\"><label class=\"ds-name-label\" for=\"ds-name-sample\">Name</label><input class=\"ds-name-input\" id=\"ds-name-sample\" type=\"text\"></div>",
+      "css": ".ds-name-field { display: flex; flex-direction: column; gap: var(--space-2, 8px); min-width: 0; color: var(--ink, #0b0b0c); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-name-label { font-size: 16px; font-weight: 500; line-height: 1.6; } .ds-name-input { width: 100%; min-height: 48px; padding: 12px 14px; color: var(--ink, #0b0b0c); background: var(--ivory, #f2f0e9); border: 1px solid var(--line, #cecdc5); border-radius: 0; font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); font-size: 16px; line-height: 1.6; caret-color: var(--ink, #0b0b0c); } .ds-name-input:hover { border-color: var(--gray, #5e5d58); } .ds-name-input:focus { border-color: var(--ink, #0b0b0c); } .ds-name-input:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;}"
     },
     {
       "name": "Header Navigation",
       "kind": "nav",
       "refersTo": "navigation",
-      "description": "Dark header and current-page underline; links are display-only with no destinations or menu script.",
-      "html": "<header class=\"ds-header\"><div class=\"ds-header-inner\"><span class=\"ds-wordmark\">Tension Lab Fitness</span><nav class=\"ds-navigation\" aria-label=\"Navigation style sample\"><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\">Coaching</a><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\" aria-current=\"page\">Results</a><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\">About</a><a class=\"ds-nav-link ds-nav-contact\" role=\"link\" tabindex=\"0\">Contact</a></nav></div></header>",
-      "css": ".ds-header { color: var(--ivory, #ffffff); background: var(--ink, #0b0b0c); border-bottom: 1px solid var(--line-dark, #3d3d40); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-header-inner { display: flex; align-items: center; justify-content: space-between; gap: var(--space-6, 24px); min-height: 80px; padding-inline: var(--gutter, clamp(22px, 5.5vw, 80px)); } .ds-wordmark { font-size: 18px; font-weight: 600; letter-spacing: 0; white-space: nowrap; } .ds-navigation { display: flex; align-items: center; gap: var(--space-6, 24px); } .ds-nav-link { display: inline-flex; align-items: center; min-height: 48px; color: inherit; font-size: 14px; font-weight: 500; line-height: 1.6; text-decoration: none; cursor: default; } .ds-nav-link:hover, .ds-nav-link[aria-current=\"page\"] { text-decoration: underline; text-underline-offset: 6px; } .ds-nav-link:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} .ds-nav-contact { display: none; } @media (max-width: 900px) { .ds-header-inner { flex-wrap: wrap; min-height: 76px; padding-block: var(--space-4, 16px); gap: var(--space-3, 12px); } .ds-wordmark { font-size: 16px; } .ds-navigation { width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 var(--space-6, 24px); padding-top: var(--space-3, 12px); border-top: 1px solid var(--line-dark, #3d3d40); } .ds-nav-contact { display: inline-flex; } }"
+      "description": "Dark header, condensed wordmark and navigation, and current-page underline. The sample shows the no-script mobile link layout; production uses the documented Menu / Close behavior.",
+      "html": "<header class=\"ds-header\"><div class=\"ds-header-inner\"><span class=\"ds-wordmark\">Tension Lab Fitness</span><nav class=\"ds-navigation\" aria-label=\"Navigation style sample\"><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\">Method</a><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\">Coaching</a><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\" aria-current=\"page\">Results</a><a class=\"ds-nav-link\" role=\"link\" tabindex=\"0\">About</a><a class=\"ds-nav-link ds-nav-contact\" role=\"link\" tabindex=\"0\">Contact</a></nav></div></header>",
+      "css": ".ds-header { color: var(--ivory, #f2f0e9); background: var(--ink, #0b0b0c); border-bottom: 1px solid var(--line-dark, #3d3d40); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-header-inner { display: flex; align-items: center; justify-content: space-between; gap: var(--space-6, 24px); min-height: 82px; padding-inline: var(--gutter, clamp(22px, 5.5vw, 80px)); } .ds-wordmark { font-family: var(--font-label, \"Barlow Condensed\", \"Arial Narrow\", sans-serif); text-transform: uppercase; font-size: 23px; font-weight: 600; letter-spacing: .13em; white-space: nowrap; } .ds-navigation { display: flex; align-items: center; gap: var(--space-6, 24px); } .ds-nav-link { display: inline-flex; align-items: center; min-height: 48px; color: inherit; font-family: var(--font-label, \"Barlow Condensed\", \"Arial Narrow\", sans-serif); text-transform: uppercase; letter-spacing: .09em; font-size: 18px; font-weight: 600; line-height: 1.6; text-decoration: none; cursor: default; } .ds-nav-link:hover, .ds-nav-link[aria-current=\"page\"] { text-decoration: underline; text-underline-offset: 6px; } .ds-nav-link:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} .ds-nav-contact { display: none; } @media (max-width: 900px) { .ds-header-inner { flex-wrap: wrap; min-height: 76px; padding-block: var(--space-4, 16px); gap: var(--space-3, 12px); } .ds-wordmark { font-size: 20px; letter-spacing: .09em; } .ds-navigation { width: 100%; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 var(--space-6, 24px); padding-top: var(--space-3, 12px); border-top: 1px solid var(--line-dark, #3d3d40); } .ds-nav-contact { display: inline-flex; } }"
     },
     {
       "name": "Attributed Review Columns",
@@ -306,44 +329,60 @@
       "refersTo": "review-grid",
       "description": "Actual short review excerpts on a flat dark plane; attribution links are inert in this display-only sample.",
       "html": "<div class=\"ds-review-surface\"><div class=\"ds-reviews\"><article class=\"ds-review\"><p class=\"ds-review-text\">“I feel stronger and more capable than ever.”</p><cite class=\"ds-review-cite\"><a class=\"ds-review-author\" role=\"link\" tabindex=\"0\">Ryan S.</a></cite></article><article class=\"ds-review\"><p class=\"ds-review-text\">“Him pushing me to stronger weights and higher reps helped gain the strength I wanted.”</p><cite class=\"ds-review-cite\"><a class=\"ds-review-author\" role=\"link\" tabindex=\"0\">Alex C.</a></cite></article><article class=\"ds-review\"><p class=\"ds-review-text\">“He follows up consistently and truly cares about your fitness goals.”</p><cite class=\"ds-review-cite\"><a class=\"ds-review-author\" role=\"link\" tabindex=\"0\">Laura V.</a></cite></article></div></div>",
-      "css": ".ds-review-surface { color: var(--ivory, #ffffff); background: var(--ink, #0b0b0c); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-reviews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line-dark, #3d3d40); } .ds-review { min-width: 0; padding: 32px 32px 32px 0; border-right: 1px solid var(--line-dark, #3d3d40); } .ds-review:not(:first-child) { padding-left: var(--space-8, 32px); } .ds-review:last-child { border-right: 0; } .ds-review-text { margin: 0; font-size: 20px; line-height: 1.55; font-weight: 400; } .ds-review-cite { display: block; margin-top: var(--space-2, 8px); color: var(--gray-light, #b0b0b4); font-size: 14px; line-height: 1.6; font-style: normal; } .ds-review-author { display: inline-flex; align-items: center; min-height: 44px; color: inherit; text-decoration: underline; text-underline-offset: 4px; } .ds-review-author:hover { text-decoration-thickness: 2px; } .ds-review-author:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} @media (max-width: 760px) { .ds-reviews { grid-template-columns: 1fr; } .ds-review { padding: var(--space-6, 24px) 0; border-right: 0; border-bottom: 1px solid var(--line-dark, #3d3d40); } .ds-review:not(:first-child) { padding-left: 0; } }"
+      "css": ".ds-review-surface { color: var(--ivory, #f2f0e9); background: var(--ink, #0b0b0c); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-reviews { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 1px solid var(--line-dark, #3d3d40); } .ds-review { min-width: 0; padding: 32px 32px 32px 0; border-right: 1px solid var(--line-dark, #3d3d40); } .ds-review:not(:first-child) { padding-left: var(--space-8, 32px); } .ds-review:last-child { border-right: 0; } .ds-review-text { margin: 0; font-size: 20px; line-height: 1.55; font-weight: 400; } .ds-review-cite { display: block; margin-top: var(--space-2, 8px); color: var(--gray-light, #bdbcb5); font-size: 14px; line-height: 1.6; font-style: normal; } .ds-review-author { display: inline-flex; align-items: center; min-height: 44px; color: inherit; text-decoration: underline; text-underline-offset: 4px; } .ds-review-author:hover { text-decoration-thickness: 2px; } .ds-review-author:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} @media (max-width: 760px) { .ds-reviews { grid-template-columns: 1fr; } .ds-review { padding: var(--space-6, 24px) 0; border-right: 0; border-bottom: 1px solid var(--line-dark, #3d3d40); } .ds-review:not(:first-child) { padding-left: 0; } }"
     },
     {
       "name": "FAQ Disclosure",
       "kind": "custom",
       "description": "Native details/summary with the implemented chevron and answer styling; no app behavior or script.",
       "html": "<div class=\"ds-faq-list\"><details class=\"ds-faq\"><summary class=\"ds-faq-summary\">Where does training take place?<svg class=\"ds-faq-chevron\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\" stroke=\"currentColor\" stroke-width=\"1.5\"/></svg></summary><p class=\"ds-faq-answer\">Sam trains at a general gym in Long Beach. Ask him to confirm the location and any gym access requirements.</p></details></div>",
-      "css": ".ds-faq-list { margin-top: var(--space-8, 32px); border-top: 1px solid var(--line, #cfcfd2); color: var(--ink, #0b0b0c); background: var(--ivory, #ffffff); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-faq { border-bottom: 1px solid var(--line, #cfcfd2); } .ds-faq-summary { display: flex; align-items: center; justify-content: space-between; gap: var(--space-6, 24px); min-height: 64px; padding-block: 18px; font-size: 18px; font-weight: 500; line-height: 1.6; cursor: pointer; list-style: none; } .ds-faq-summary::-webkit-details-marker { display: none; } .ds-faq-summary:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} .ds-faq-chevron { width: 20px; height: 20px; flex-shrink: 0; transition: transform 150ms ease; } .ds-faq[open] .ds-faq-chevron { transform: rotate(180deg); } .ds-faq-answer { max-width: 65ch; margin: 0; padding-bottom: var(--space-6, 24px); color: var(--gray, #606063); font-size: 16px; line-height: 1.6; } @media (prefers-reduced-motion: reduce) { .ds-faq-chevron { transition: none; } }"
+      "css": ".ds-faq-list { margin-top: var(--space-8, 32px); border-top: 1px solid var(--line, #cecdc5); color: var(--ink, #0b0b0c); background: var(--ivory, #f2f0e9); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-faq { border-bottom: 1px solid var(--line, #cecdc5); } .ds-faq-summary { display: flex; align-items: center; justify-content: space-between; gap: var(--space-6, 24px); min-height: 64px; padding-block: 18px; font-size: 18px; font-weight: 500; line-height: 1.6; cursor: pointer; list-style: none; } .ds-faq-summary::-webkit-details-marker { display: none; } .ds-faq-summary:focus-visible {outline: 2px solid currentColor; outline-offset: 4px;} .ds-faq-chevron { width: 20px; height: 20px; flex-shrink: 0; transition: transform 150ms ease; } .ds-faq[open] .ds-faq-chevron { transform: rotate(180deg); } .ds-faq-answer { max-width: 65ch; margin: 0; padding-bottom: var(--space-6, 24px); color: var(--gray, #5e5d58); font-size: 16px; line-height: 1.6; } @media (prefers-reduced-motion: reduce) { .ds-faq-chevron { transition: none; } }"
     },
     {
       "name": "Photo Caption Pair",
       "kind": "custom",
       "description": "The actual Before / After caption treatment with factual Jimmy weights; a caption-only display sample without substitute imagery.",
       "html": "<div class=\"ds-caption-pair\"><figure class=\"ds-caption-figure\"><figcaption class=\"ds-photo-caption\"><span class=\"ds-photo-label\">Before</span><strong class=\"ds-photo-weight\">235 lbs</strong></figcaption></figure><figure class=\"ds-caption-figure\"><figcaption class=\"ds-photo-caption\"><span class=\"ds-photo-label\">After</span><strong class=\"ds-photo-weight\">185 lbs</strong></figcaption></figure></div>",
-      "css": ".ds-caption-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3, 12px); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-caption-figure { margin: 0; min-width: 0; } .ds-photo-caption { display: flex; justify-content: space-between; align-items: center; gap: var(--space-2, 8px); min-height: 52px; padding: 14px; color: var(--ink, #0b0b0c); background: var(--ivory, #ffffff); line-height: 1.6; } .ds-photo-label { color: var(--gray, #606063); font-size: 12px; font-weight: 500; } .ds-photo-weight { font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; } @media (max-width: 760px) { .ds-caption-pair { gap: 10px; } .ds-photo-caption { padding: 12px 9px; } .ds-photo-weight { font-size: 14px; } }"
+      "css": ".ds-caption-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3, 12px); font-family: var(--font-sans, \"Helvetica Neue\", Helvetica, Arial, sans-serif); } .ds-caption-figure { margin: 0; min-width: 0; } .ds-photo-caption { display: flex; justify-content: space-between; align-items: center; gap: var(--space-2, 8px); min-height: 52px; padding: 14px; color: var(--ink, #0b0b0c); background: var(--ivory, #f2f0e9); line-height: 1.6; } .ds-photo-label { color: var(--gray, #5e5d58); font-size: 12px; font-weight: 500; } .ds-photo-weight { font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; } @media (max-width: 760px) { .ds-caption-pair { gap: 10px; } .ds-photo-caption { padding: 12px 9px; } .ds-photo-weight { font-size: 14px; } }"
     }
   ],
   "narrative": {
-    "northStar": "Black, white, and real client evidence",
-    "overview": "Tension Lab Fitness uses a restrained monochrome system for strength coaching with Sam. Normal-width Helvetica Neue, short headings, square controls, and thin gray rules provide the interface; photographs and attributed client accounts provide the visual substance. The approved direction seeks premium quality inspired by Ultimate Performance.\n\nThe page backgrounds are pure white or near-black. Spacing separates information without decorative card layers or oversized slogans. This record describes the implemented HTML, CSS, and JavaScript source. No rendered desktop or mobile review, runtime test, or GitHub deployment is claimed.",
+    "northStar": "Condensed strength, real client evidence",
+    "overview": "Tension Lab Fitness pairs condensed uppercase headings with generous near-black and warm ivory planes. Anton establishes the strong display voice; Barlow Condensed carries the wordmark, navigation, row headings, and square actions. Helvetica keeps explanations, reviews, and forms readable. This is the condensed-heading mockup direction chosen by the user on October 12, 2026, superseding the earlier pure-white and all-Helvetica draft.\n\nLarge training imagery establishes atmosphere, while original client photographs and attributed accounts supply evidence. Fine dividers and spacing structure the flat pages. A single restrained homepage image reveal provides motion; the rest of the interface uses direct color changes and native disclosures. The durable system is extracted from the implemented site; page-specific composition lives in `.impeccable/surfaces/full-site.md`.",
     "keyCharacteristics": [
-      "Pure white, near-black, and neutral-gray surfaces.",
-      "Normal-width Helvetica Neue throughout.",
-      "Square controls, thin rules, and flat sections.",
-      "Large photographs with visible provenance and factual captions."
+      "Near-black, warm ivory, and muted gray surfaces.",
+      "Anton display headings, Barlow Condensed controls, and Helvetica body copy.",
+      "Square controls, fine rules, flat sections, and visible keyboard focus.",
+      "Large illustrative training imagery alongside original, attributed client evidence."
     ],
-    "rules": [],
+    "rules": [
+      {
+        "name": "The Contrast Rule",
+        "body": "Use ink and ivory for the primary hierarchy; retain muted gray for supporting text and fine rules for separation. CTA emphasis comes from contrast, not an orange or blue accent.",
+        "section": "colors"
+      },
+      {
+        "name": "The Type Roles Rule",
+        "body": "Use Anton for display hierarchy, Barlow Condensed for navigation and actions, and Helvetica for sustained reading. Preserve the natural widths of all three families.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Surface Rule",
+        "body": "Separate content through surface contrast, spacing, and rules rather than decorative shadows or floating cards.",
+        "section": "elevation"
+      }
+    ],
     "dos": [
-      "Do use the existing monochrome palette and normal-width Helvetica Neue stack.",
-      "Do preserve square controls, visible keyboard focus, and the established spacing rhythm.",
-      "Do keep client photographs, review attribution, and stock-photo credit visible.",
-      "Do describe contact actions as preparing, copying, or opening an inquiry draft."
+      "Do use near-black and warm ivory with the documented Anton, Barlow Condensed, and Helvetica roles.",
+      "Do preserve square controls, visible keyboard focus, and the established responsive spacing.",
+      "Do retain original client photographs, review attribution, and the About stock-photo credit.",
+      "Do describe inquiry actions as preparing, copying, or opening a draft for the visitor to send."
     ],
     "donts": [
-      "Don't add blue, orange, cream, or taupe surfaces, condensed type, or horizontally scaled text.",
-      "Don't add decorative shadows, rounded cards, generic slogans, or unsupported metrics.",
-      "Don't present stock imagery as Sam or a client, or imply that Tension Lab owns a private gym.",
-      "Don't invent pricing, credentials, contact details, or a message-sent state."
+      "Don't restore the superseded pure-white, all-Helvetica direction or add orange or blue CTAs.",
+      "Don't horizontally scale type, introduce decorative shadows, or round the established square controls.",
+      "Don't present generated or stock imagery as a real client, Sam, or his training location.",
+      "Don't invent result metrics, credentials, prices, contact details, or a message-sent state."
     ]
   }
 }

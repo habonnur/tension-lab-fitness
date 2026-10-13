@@ -2,20 +2,32 @@
 
 A complete static strength-coaching website for Sam in Long Beach.
 
+- Live site: https://habonnur.github.io/tension-lab-fitness/
+- Repository: https://github.com/habonnur/tension-lab-fitness
+- Visual direction: the user-approved condensed-heading mockup, near-black and warm ivory, with high-contrast coaching buttons.
+
 ## Pages
 
 - `index.html` — homepage with a workout photograph, coaching overview, and client progress.
+- `method.html` — Assess / Program / Coach / Adapt, with links to client evidence.
 - `coaching.html` — coaching approach and practical questions.
 - `results.html` — original client before/after photos and Google review excerpts.
 - `about.html` — Sam's approach, using confirmed facts and client observations.
-- `contact.html` — an inquiry form that prepares text locally.
+- `contact.html` — call Sam or prepare a message to open in the visitor's messaging app.
 - `404.html` — a custom missing-page screen.
 
 All pages share `assets/site.css`, navigation behavior, and contact configuration. Links are relative so the site works under a GitHub repository path as well as a custom domain.
 
 ## Open locally
 
-Open `index.html` in a browser. No installation or framework build is required to view the source site.
+No frontend package installation is needed. Python 3 packages the site, including metadata and a sitemap:
+
+```sh
+python3 scripts/build.py
+python3 -m http.server 8765 --bind 127.0.0.1 --directory _site
+```
+
+Then open http://127.0.0.1:8765/ . The output directory is ignored by Git.
 
 ## Publish through GitHub Actions
 
@@ -30,25 +42,25 @@ The workflow uses the current actions from [GitHub's custom Pages workflow docum
 
 ## Contact configuration
 
-The user requested a placeholder contact for this draft. Edit `assets/site-config.js` when Sam supplies a real email:
+The public business number, (408) 202-7994, was verified against the Google listing on October 12, 2026. It powers the call and SMS links. Add Sam's email in `assets/site-config.js` if he prefers email inquiries:
 
 ```js
 window.TENSION_LAB_CONFIG = Object.freeze({
-  contactEmail: "sam@your-real-domain.com",
-  contactIsPlaceholder: false
+  contactPhone: "+14082027994",
+  contactEmail: ""
 });
 ```
 
-With the placeholder enabled, the form prepares an inquiry that visitors can copy. It does not send messages. With a real email configured, it also provides **Open email app**, with the inquiry already filled in. The visitor sends it through their email app; GitHub Pages does not provide a form backend.
+The form prepares an inquiry locally and offers **Open text message** or **Copy inquiry**. A messaging app is required for SMS. With a valid email configured, **Email Sam** and **Open email app** also become available. Visitors review and send from their own app. The website has no message-delivery backend, analytics, advertising cookies, or database, and does not store form entries.
 
-The deployment build also updates the static email fallback. Run `python3 scripts/build.py` to package locally after changing the configuration.
+The deployment build also updates the email fallback for visitors with JavaScript disabled. After changing the public phone, update the visible phone text and fallback links in `contact.html` and structured data in `scripts/build.py` as well. For a custom domain, set `SITE_URL` in the workflow and configure that domain in Pages settings.
 
 ## Content and images
 
-Photo and review sources are documented in `ASSETS.md`. The workout photograph is stock imagery; the Results photos are the original client photos used in the existing project. The Google rating is a recorded content snapshot, not a live integration.
+Photo and review sources are documented in `ASSETS.md`. The homepage campaign image is generated illustration; the About page uses credited stock photography. All four Results photos are original client review images, used with permission. Review links point to Google; the website does not claim a live review count.
 
 The site does not invent prices, trainer credentials, a trainer portrait, or a private Tension Lab gym. Add confirmed information directly to the relevant HTML page when it is available.
 
 ## Work completed and review scope
 
-Source files and original imagery were reviewed. No implementation tests or live browser screenshots were run in this build. The earlier browser local-file restriction was respected.
+The static build completed, and all six content pages were visually reviewed at 1440px and 390px widths; the homepage was also inspected at the user's 692px viewport. Screenshots are local review artifacts and are not published. No implementation tests were requested or run. A future form backend or booking integration needs Sam's chosen service and destination.

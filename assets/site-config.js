@@ -1,5 +1,6 @@
-// Replace the email and set contactIsPlaceholder to false when Sam supplies his details.
+// Public business phone verified against the Google listing on October 12, 2026.
+// Add Sam's email when provided; phone contact works without it.
 window.TENSION_LAB_CONFIG = Object.freeze({
-  contactEmail: "hello@example.com",
-  contactIsPlaceholder: true
+  contactPhone: "+14082027994",
+  contactEmail: ""
 });
