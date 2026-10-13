@@ -1,12 +1,13 @@
 ---
 name: Tension Lab Fitness
-description: Strength coaching with condensed type, near-black and warm ivory, and real client evidence.
+description: Strength coaching with condensed type, near-black and crisp white, and real client evidence.
 colors:
   ink: "#0b0b0c"
-  ivory: "#f2f0e9"
-  gray: "#5e5d58"
-  gray-light: "#bdbcb5"
-  line: "#cecdc5"
+  white: "#ffffff"
+  gray: "#5c5c5c"
+  gray-light: "#bdbdbd"
+  line: "#d1d1d1"
+  control-line: "#888888"
   line-dark: "#3d3d40"
   surface-dark: "#151516"
   photo-frame: "#1d1d1f"
@@ -14,7 +15,7 @@ colors:
   button-active: "#404043"
   outline-hover: "#f2f2f3"
   light-hover: "#e6e6e6"
-  dark-section-hover: "#dedbd2"
+  dark-section-hover: "#e6e6e6"
   disabled: "#ededee"
 typography:
   display:
@@ -89,7 +90,7 @@ spacing:
 components:
   button-primary:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.ivory}"
+    textColor: "{colors.white}"
     typography: "{typography.button}"
     rounded: "{rounded.square}"
     padding: "12px 24px"
@@ -106,7 +107,7 @@ components:
   button-outline-hover:
     backgroundColor: "{colors.outline-hover}"
   button-light:
-    backgroundColor: "{colors.ivory}"
+    backgroundColor: "{colors.white}"
     textColor: "{colors.ink}"
     typography: "{typography.button}"
     rounded: "{rounded.square}"
@@ -119,18 +120,18 @@ components:
     backgroundColor: "{colors.disabled}"
     textColor: "{colors.gray}"
   input:
-    backgroundColor: "{colors.ivory}"
+    backgroundColor: "{colors.white}"
     textColor: "{colors.ink}"
     typography: "{typography.body}"
     rounded: "{rounded.square}"
     padding: "12px 14px"
   navigation:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.ivory}"
+    textColor: "{colors.white}"
     typography: "{typography.navigation}"
   review-grid:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.ivory}"
+    textColor: "{colors.white}"
     typography: "{typography.review}"
 ---
 
@@ -140,20 +141,20 @@ components:
 
 **Creative North Star: "Condensed strength, real client evidence"**
 
-Tension Lab Fitness pairs condensed uppercase headings with generous near-black and warm ivory planes. Anton establishes the strong display voice; Barlow Condensed carries the wordmark, navigation, row headings, and square actions. Helvetica keeps explanations, reviews, and forms readable. This is the condensed-heading mockup direction chosen by the user on October 12, 2026, superseding the earlier pure-white and all-Helvetica draft.
+Tension Lab Fitness pairs condensed uppercase headings with generous near-black and crisp white planes. Anton establishes the strong display voice; Barlow Condensed carries the wordmark, navigation, row headings, and square actions. Helvetica keeps explanations, reviews, and forms readable. The user selected the condensed-heading mockup, then requested crisp white surfaces in place of tan. Preserve the condensed typography with the updated white palette.
 
 Large training imagery establishes atmosphere, while original client photographs and attributed accounts supply evidence. Fine dividers and spacing structure the flat pages. A single restrained homepage image reveal provides motion; the rest of the interface uses direct color changes and native disclosures. The durable system is extracted from the implemented site; page-specific composition lives in `.impeccable/surfaces/full-site.md`.
 
 **Key Characteristics:**
 
-- Near-black, warm ivory, and muted gray surfaces.
+- Near-black, crisp white, and muted gray surfaces.
 - Anton display headings, Barlow Condensed controls, and Helvetica body copy.
 - Square controls, fine rules, flat sections, and visible keyboard focus.
 - Large illustrative training imagery alongside original, attributed client evidence.
 
 ## Colors
 
-The palette is restrained and warm; the frontmatter records the implemented values.
+The palette is restrained and neutral; the frontmatter records the implemented values.
 
 ### Primary
 
@@ -161,16 +162,17 @@ The palette is restrained and warm; the frontmatter records the implemented valu
 
 ### Neutral
 
-- **Warm ivory:** main canvas, photo captions, light actions, and text on dark sections.
-- **Gray:** supporting copy, labels, and attribution on ivory.
+- **Crisp white:** main canvas, photo captions, light actions, and text on dark sections.
+- **Gray:** supporting copy, labels, and attribution on white.
 - **Light gray:** supporting copy and attribution on dark sections.
 - **Light rule / dark rule:** one-pixel dividers on their corresponding surfaces.
+- **Control line:** a stronger neutral border for fields and outlined buttons on white.
 - **Dark surface / photo frame:** photograph backing planes.
 - **Button hover / active, outline hover, light hover, dark-section hover, disabled:** the implemented control-state fills.
 
 There are no secondary or tertiary accent roles. The sidecar's derived tonal ramps are swatch previews, not additional implemented tokens.
 
-**The Contrast Rule.** Use ink and ivory for the primary hierarchy; retain muted gray for supporting text and fine rules for separation. CTA emphasis comes from contrast, not an orange or blue accent.
+**The Contrast Rule.** Use ink and white for the primary hierarchy; retain muted gray for supporting text and fine rules for separation. CTA emphasis comes from contrast, not an orange or blue accent.
 
 ## Typography
 
@@ -194,7 +196,7 @@ The centered content container has a maximum width of (1520px), including the fl
 
 Desktop compositions use paired columns: preview photos/copy (1.15 / .85), informational split (.9 / 1.1), contact aside/form (.75 / 1.25), and result photos/content (1.2 / 1). Result articles alternate sides. Main reviews have three columns; the native expanded review group has two. These grids use `minmax(0, …)` so content can shrink.
 
-The homepage has full-width background imagery behind copy occupying (51%) of the container and a hero minimum height of `clamp(620px, 49vw, 780px)`. Its method strip has four equal linked columns. This composition belongs to the homepage, not every surface.
+The homepage has full-width background imagery behind copy occupying (51%) of the container and a hero minimum height of `clamp(620px, 49vw, 780px)`. Its method strip has four equal linked columns. Real client progress and a review follow before the coaching overview. This composition belongs to the homepage, not every surface.
 
 - **At (900px) and below:** the header wraps, its desktop contact action hides, and navigation becomes two columns. JavaScript exposes a Menu / Close button and collapses the links; without JavaScript they remain visible. Contact becomes one column, the wordmark becomes (20px) with (.09em) tracking, and homepage copy becomes (60%) wide.
 - **At (760px) and below:** the homepage copy and image become separate stacked blocks. Preview, informational split, method details, explanatory rows, and form columns also stack. Standard section padding becomes (56px). The method strip becomes two columns. Result articles order heading, photos, then copy; photos remain paired with a (10px) gap. Reviews become one column with horizontal separators. Footer navigation wraps below the wordmark.
@@ -202,7 +204,7 @@ The homepage has full-width background imagery behind copy occupying (51%) of th
 
 ## Elevation & Depth
 
-There are no shadows. Near-black and ivory planes, dark image backing, whitespace, and one-pixel rules provide separation. A gradient over the desktop hero preserves text contrast. Sections and review columns remain flat; controls change color without lifting.
+There are no shadows. Near-black and white planes, dark image backing, whitespace, and one-pixel rules provide separation. A gradient over the desktop hero preserves text contrast. Sections and review columns remain flat; controls change color without lifting.
 
 **The Flat Surface Rule.** Separate content through surface contrast, spacing, and rules rather than decorative shadows or floating cards.
 
@@ -214,15 +216,15 @@ Controls and photograph frames have square corners. Inputs explicitly use a zero
 
 ### Buttons
 
-Square, uppercase actions have a minimum height of (52px) and a one-pixel border. Primary actions use ink with ivory text; outlined actions use a transparent background and a light rule; light actions reverse the palette. Frontmatter holds their padding and colors.
+Square, uppercase actions have a minimum height of (52px) and a one-pixel border. Primary actions use ink with white text; outlined actions use a transparent background and the control-line border; light actions reverse the palette. Prominent inquiry entry links use Contact Sam. Frontmatter holds their padding and colors.
 
-Primary hover and active states use the recorded fills. Outline hover strengthens its border to ink and applies its light fill. Light actions use the light-hover fill; actions inside dark sections and the review band use the separate dark-section-hover fill. The homepage outline action starts ivory on ink and inverts on hover. Disabled actions use muted text and the disabled surface.
+Primary hover and active states use the recorded fills. Outline hover strengthens its border to ink and applies its light fill. Light actions use the light-hover fill; actions inside dark sections and the review band use the separate dark-section-hover fill. The homepage outline action starts white on ink and inverts on hover. Disabled actions use muted text and the disabled surface.
 
 Background and border transitions use (150ms ease). On mobile, homepage actions use (17px) text and (17px) horizontal padding. Interactive elements share a current-color focus outline (2px), offset (4px). Inline links and attribution targets have a minimum height of (44px).
 
 ### Inputs / Fields
 
-Ivory fields have one-pixel light rules, a minimum height of (48px), and the body font. Hover strengthens the border to gray; focus strengthens it to ink with the shared outline. Textareas resize vertically and start at (136px); the read-only inquiry draft starts at (260px). Visible labels distinguish required fields and optional information.
+White fields have one-pixel control-line borders, a minimum height of (48px), and the body font. Hover strengthens the border to gray; focus strengthens it to ink with the shared outline. Textareas resize vertically and start at (136px); the read-only inquiry draft starts at (260px). Visible labels distinguish required fields and optional information. A short explanation above the fields establishes that visitors prepare a message and then review and send it from their own messaging app.
 
 The name and goals are required and trimmed before native validation. Email is optional with native format validation. Preparing an inquiry reveals a local draft and announces its state through a polite live region. Editing the form hides a stale draft. Copy failure selects the draft for manual copying. Call, text-draft, and copy actions are explicit; an email-draft action appears only when a valid address is configured. No successful-send state exists.
 
@@ -242,7 +244,7 @@ Reviews sit directly on a dark plane with dark vertical rules and (32px) desktop
 
 The homepage campaign image is generated illustration, not a real client, trainer, result, or verified training location. It uses cover cropping and a desktop gradient; it receives no grayscale filter. A clip-path reveal runs for (950ms) with `cubic-bezier(.16,1,.3,1)` only when reduced motion is not requested.
 
-The About stock photograph uses grayscale and cover cropping with (center 75%) positioning. Its visible Rodrigo Rodrigues / Unsplash credit remains attached. Original client before/after photographs retain visible captions and Google-review attribution. They receive no generated alterations or grayscale filter. The first pair uses cover; the reversed pair uses contain. Ivory caption strips align labels with factual weights when supplied.
+The About stock photograph uses grayscale and cover cropping with (center 75%) positioning. Its visible Rodrigo Rodrigues / Unsplash credit remains attached. Original client before/after photographs retain visible captions and Google-review attribution. They receive no generated alterations or grayscale filter. The first pair uses cover; the reversed pair uses contain. White caption strips align labels with factual weights when supplied.
 
 ### FAQ Disclosure
 
@@ -252,14 +254,14 @@ Native details rows have light separators and a summary at least (64px) high. A 
 
 ### Do:
 
-- Do use near-black and warm ivory with the documented Anton, Barlow Condensed, and Helvetica roles.
+- Do use near-black and crisp white with the documented Anton, Barlow Condensed, and Helvetica roles.
 - Do preserve square controls, visible keyboard focus, and the established responsive spacing.
 - Do retain original client photographs, review attribution, and the About stock-photo credit.
 - Do describe inquiry actions as preparing, copying, or opening a draft for the visitor to send.
 
 ### Don't:
 
-- Don't restore the superseded pure-white, all-Helvetica direction or add orange or blue CTAs.
+- Don't restore warm tan surfaces, replace the condensed display type with Helvetica, or add orange or blue CTAs.
 - Don't horizontally scale type, introduce decorative shadows, or round the established square controls.
 - Don't present generated or stock imagery as a real client, Sam, or his training location.
 - Don't invent result metrics, credentials, prices, contact details, or a message-sent state.

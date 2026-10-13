@@ -4,7 +4,7 @@ A complete static strength-coaching website for Sam in Long Beach.
 
 - Live site: https://habonnur.github.io/tension-lab-fitness/
 - Repository: https://github.com/habonnur/tension-lab-fitness
-- Visual direction: the user-approved condensed-heading mockup, near-black and warm ivory, with high-contrast coaching buttons.
+- Visual direction: the user-approved condensed-heading mockup, near-black and crisp white, with high-contrast coaching buttons.
 
 ## Pages
 

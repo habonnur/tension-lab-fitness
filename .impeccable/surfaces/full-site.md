@@ -12,11 +12,11 @@ On October 12, 2026, the user chose “Use this chat’s condensed-heading mocku
 
 THESIS: Make Sam's strength coaching in Long Beach clear, show real client results, and give prospective clients a direct next step.
 
-OWN-WORLD: Near-black #0b0b0c and warm ivory #f2f0e9. Self-hosted Anton for large condensed uppercase headings. Barlow Condensed for wordmark, labels, and square CTA buttons; Helvetica for body text. Large training imagery, flat surfaces, fine dividers, no orange or blue CTA.
+OWN-WORLD: Near-black #0b0b0c and crisp white #ffffff. Self-hosted Anton for large condensed uppercase headings. Barlow Condensed for wordmark, labels, and square CTA buttons; Helvetica for body text. Large training imagery, flat surfaces, fine dividers, no orange or blue CTA.
 
-STORY: Identify the coaching, understand Assess / Program / Coach / Adapt, inspect genuine transformations and reviews, then contact Sam.
+STORY: Identify the coaching, understand Assess / Program / Coach / Adapt, inspect genuine transformations and reviews, read the specific coaching overview, then contact Sam.
 
-FIRST VIEWPORT: Dark full-width training scene with athlete on the right and “Built for the work.” on the left. Direct explanation, ivory Apply for coaching button, outlined Explore the method action. On narrow screens text and image stack for readability. The method strip continues on ivory.
+FIRST VIEWPORT: Dark full-width training scene with athlete on the right and “Built for the work.” on the left. Direct explanation, white Contact Sam button, outlined Explore the method action. On narrow screens text and image stack for readability. The method strip continues on white.
 
 FORM: Existing site adapted to the user-pinned mockup, with no open direction selection or concept-seed assignment. Semantic HTML, one restrained hero reveal, reduced-motion support, existing navigation and FAQ behavior.
 

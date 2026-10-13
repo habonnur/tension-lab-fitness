@@ -56,69 +56,6 @@
         ],
         "createdAt": "2026-10-13T01:33:22.489Z",
         "reason": "Agent verified shared source styles and desktop/mobile captures: intro has 72px vertical padding (44px mobile), sections 56–104px, FAQ summary text 18px from top and bottom. Containers add at least 22px side gutters. Detector misses logical padding and nested insets."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "index.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.512Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "about.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.523Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "results.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.536Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "method.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.552Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "coaching.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.568Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "contact.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.583Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
-      },
-      {
-        "rule": "cream-palette",
-        "value": "*",
-        "files": [
-          "404.html"
-        ],
-        "createdAt": "2026-10-13T01:33:22.595Z",
-        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
       }
     ]
   }

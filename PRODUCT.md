@@ -33,7 +33,7 @@ Sam trains at a general gym. Tension Lab Fitness is the coaching brand, not a pr
 - Brand name: Tension Lab Fitness. Coach: Sam. Location: Long Beach.
 - Premium quality inspired by Ultimate Performance.
 - Latest user-confirmed direction (2026-10-12): “Use this chat’s condensed-heading mockup,” superseding the earlier pure-white and all-Helvetica draft.
-- Near-black and warm ivory surfaces, Anton display type, Barlow Condensed navigation and controls, and readable Helvetica body copy. No orange or blue CTA.
+- Near-black and crisp white surfaces, Anton display type, Barlow Condensed navigation and controls, and readable Helvetica body copy. No orange or blue CTA.
 - Short, factual language. Avoid fabricated promises and unsupported qualifications or outcomes.
 - The homepage campaign image is a generated training illustration. It is not a real client, Sam, a result, or a photograph of the actual training location.
 - The About workout image is stock photography with visible Rodrigo Rodrigues / Unsplash credit. It is not a portrait of Sam or a client.
