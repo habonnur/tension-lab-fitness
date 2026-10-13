@@ -10,7 +10,115 @@
           "results.html"
         ],
         "createdAt": "2026-10-05T04:01:29.636Z",
-        "reason": "Agent source review: assets/site.css gives intro 40px vertical padding (32px/24px on mobile), review-grid 56px (40px on mobile), and their inner containers at least 22px horizontal gutters. More-reviews summary has 20px vertical padding and review children have 24px/32px top padding. All three reported edges already inset their text; preserve the existing layout."
+        "reason": "Agent verified live computed styles and desktop/mobile captures: intro has 72px vertical padding (44px mobile), review-grid 56px (40px mobile), more-reviews summary 20px, review children 24–32px, and nested containers at least 22px side gutters. Detector misses logical padding and nested insets."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.442Z",
+        "reason": "Agent verified live computed styles and desktop/mobile captures: hero text has 72px vertical padding (40px/32px mobile) inside a container with 22px minimum side gutters; sections have 56–104px vertical padding; approach rows have 24px and FAQ summaries 18px. Detector misses padding-block and nested insets. Preserve full-bleed image; reassess if layout changes."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "about.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.455Z",
+        "reason": "Agent verified shared source styles and desktop/mobile captures: intro has 72px vertical padding (44px mobile) plus container side gutters; dark section has 56–104px vertical padding; approach rows have 24px. Text is not flush. Detector misses logical padding and nested insets."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "method.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.467Z",
+        "reason": "Agent verified live computed styles and desktop/mobile captures: intro has 72px vertical padding (44px mobile); dark section has 56–104px vertical padding; nested containers provide at least 22px side gutters. Detector misses logical padding and nested insets."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "coaching.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.478Z",
+        "reason": "Agent verified live computed styles and desktop/mobile captures: intro has 72px vertical padding (44px mobile), sections 56–104px, approach rows and detail-list items 24px, FAQ summaries 18px; containers provide side gutters. Border-only list wrappers correctly delegate inset to children."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "contact.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.489Z",
+        "reason": "Agent verified shared source styles and desktop/mobile captures: intro has 72px vertical padding (44px mobile), sections 56–104px, FAQ summary text 18px from top and bottom. Containers add at least 22px side gutters. Detector misses logical padding and nested insets."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.512Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "about.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.523Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "results.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.536Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "method.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.552Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "coaching.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.568Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "contact.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.583Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "404.html"
+        ],
+        "createdAt": "2026-10-13T01:33:22.595Z",
+        "reason": "User confirmed on October 12, 2026: Use this chat’s condensed-heading mockup. Warm ivory #f2f0e9 is an explicit approved palette choice, documented in DESIGN.md, not an unchosen default. Preserve this color."
       }
     ]
   }
