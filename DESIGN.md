@@ -183,7 +183,7 @@ Condensed uppercase type supplies the visual identity without stretching text. B
 - **Display:** homepage headline; tighter leading and tracking than interior headings. At the header breakpoint it uses `clamp(64px, 8.8vw, 88px)`; at the content breakpoint it uses `clamp(58px, 12vw, 88px)`.
 - **Page title / headline:** interior introductions and section headings. Maximum widths are (900px) and (850px), respectively.
 - **Title:** explanatory row headings use Barlow Condensed. All heading levels are uppercase with balanced wrapping except the homepage's explicit line breaks.
-- **Body / lead:** ordinary body copy and introductory text. Leads are generally bounded to (44ch); homepage lead uses `clamp(18px, 1.7vw, 25px)` with (1.45) leading and a (29ch) desktop measure, expanding to (35ch) on mobile. Explanatory copy uses (54–65ch).
+- **Body / lead:** ordinary body copy and introductory text. Leads are generally bounded to (44ch); homepage lead uses `clamp(18px, 1.7vw, 25px)` with (1.45) leading and a (36ch) desktop measure, capped at (35ch) on mobile; balanced wrapping keeps the short hero line from leaving an isolated word. Explanatory copy uses (54–65ch).
 - **Navigation / wordmark / button:** uppercase Barlow Condensed with the role-specific tracking in frontmatter. Body-style form labels use (16px / 500), optional markers use (14px / 400), and attribution remains Helvetica.
 - **Review:** client-review columns. Case quotes use (20px / 1.5); quote bands use `clamp(28px, 3.3vw, 44px)` with (1.3) leading. Result headings use Anton at `clamp(42px, 4.8vw, 68px)`.
 - **Supporting type:** photo weights use tabular numerals; credits and microcopy use (12px).
@@ -227,6 +227,8 @@ Background and border transitions use (150ms ease). On mobile, homepage actions 
 White fields have one-pixel control-line borders, a minimum height of (48px), and the body font. Hover strengthens the border to gray; focus strengthens it to ink with the shared outline. Textareas resize vertically and start at (136px); the read-only inquiry draft starts at (260px). Visible labels distinguish required fields and optional information. A short explanation above the fields establishes that visitors prepare a message and then review and send it from their own messaging app.
 
 The name and goals are required and trimmed before native validation. Email is optional with native format validation. Preparing an inquiry reveals a local draft and announces its state through a polite live region. Editing the form hides a stale draft. Copy failure selects the draft for manual copying. Call, text-draft, and copy actions are explicit; an email-draft action appears only when a valid address is configured. No successful-send state exists.
+
+Use Contact Sam for entry actions, Preview message for the form action, and Your message / Copy message for the draft. Keep the messaging-app handoff clear. Marketing headings and supporting copy should be brief and centered on tailored training, technique, and consistency; retain attributed client quotes verbatim.
 
 ### Navigation
 

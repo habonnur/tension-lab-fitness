@@ -35,6 +35,8 @@ Sam trains at a general gym. Tension Lab Fitness is the coaching brand, not a pr
 - Latest user-confirmed direction (2026-10-12): “Use this chat’s condensed-heading mockup,” superseding the earlier pure-white and all-Helvetica draft.
 - Near-black and crisp white surfaces, Anton display type, Barlow Condensed navigation and controls, and readable Helvetica body copy. No orange or blue CTA.
 - Short, factual language. Avoid fabricated promises and unsupported qualifications or outcomes.
+- Marketing copy leads with the coaching benefit, followed by client evidence and a direct next step. Keep the hero line to “Personal strength coaching with Sam.” and place Long Beach in the separate location line.
+- The user requested removing the results-page paragraph about client-reported progress, permission, and varying outcomes. Keep individual Google review links and asset provenance.
 - The homepage campaign image is a generated training illustration. It is not a real client, Sam, a result, or a photograph of the actual training location.
 - The About workout image is stock photography with visible Rodrigo Rodrigues / Unsplash credit. It is not a portrait of Sam or a client.
 

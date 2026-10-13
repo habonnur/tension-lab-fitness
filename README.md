@@ -51,7 +51,7 @@ window.TENSION_LAB_CONFIG = Object.freeze({
 });
 ```
 
-The form prepares an inquiry locally and offers **Open text message** or **Copy inquiry**. A messaging app is required for SMS. With a valid email configured, **Email Sam** and **Open email app** also become available. Visitors review and send from their own app. The website has no message-delivery backend, analytics, advertising cookies, or database, and does not store form entries.
+The **Preview message** action prepares a draft locally and offers **Open text message** or **Copy message**. A messaging app is required for SMS. With a valid email configured, **Email Sam** and **Open email app** also become available. Visitors review and send from their own app. The website has no message-delivery backend, analytics, advertising cookies, or database, and does not store form entries.
 
 The deployment build also updates the email fallback for visitors with JavaScript disabled. After changing the public phone, update the visible phone text and fallback links in `contact.html` and structured data in `scripts/build.py` as well. For a custom domain, set `SITE_URL` in the workflow and configure that domain in Pages settings.
 

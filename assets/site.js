@@ -91,7 +91,7 @@
     emailDraftLink.href = `mailto:${contactEmail}?subject=${encodeURIComponent("Strength coaching inquiry")}&body=${encodeURIComponent(body)}`;
     const smsSeparator = /iPad|iPhone|iPod/.test(navigator.userAgent) ? "&" : "?";
     textDraftLink.href = `sms:${contactPhone}${smsSeparator}body=${encodeURIComponent(body)}`;
-    status.textContent = "Your inquiry is ready. Open a text message or copy it to send to Sam. Nothing has been sent yet.";
+    status.textContent = "Your message is ready to review. Open your messaging app or copy it to send. Nothing has been sent yet.";
     draftText.focus();
   });
 
@@ -101,7 +101,7 @@
     }
     if (!panel.hidden) {
       panel.hidden = true;
-      status.textContent = "Details changed. Prepare your inquiry again to update the draft.";
+      status.textContent = "Details changed. Select Preview message to update your draft.";
     }
   });
 
@@ -109,11 +109,11 @@
     try {
       if (!navigator.clipboard) throw new Error("Clipboard unavailable");
       await navigator.clipboard.writeText(draftText.value);
-      status.textContent = "Inquiry copied. Nothing has been sent.";
+      status.textContent = "Message copied. Nothing has been sent.";
     } catch {
       draftText.focus();
       draftText.select();
-      status.textContent = "Select and copy the inquiry below. Automatic copying is unavailable in this browser.";
+      status.textContent = "Select and copy the message below. Automatic copying is unavailable in this browser.";
     }
   });
 

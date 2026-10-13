@@ -16,7 +16,7 @@ OWN-WORLD: Near-black #0b0b0c and crisp white #ffffff. Self-hosted Anton for lar
 
 STORY: Identify the coaching, understand Assess / Program / Coach / Adapt, inspect genuine transformations and reviews, read the specific coaching overview, then contact Sam.
 
-FIRST VIEWPORT: Dark full-width training scene with athlete on the right and “Built for the work.” on the left. Direct explanation, white Contact Sam button, outlined Explore the method action. On narrow screens text and image stack for readability. The method strip continues on white.
+FIRST VIEWPORT: Dark full-width training scene with athlete on the right and “Built for the work.” on the left. “Personal strength coaching with Sam.” supporting copy, a separate Long Beach location line, white Contact Sam button, outlined Explore the method action. On narrow screens text and image stack for readability. The method strip continues on white.
 
 FORM: Existing site adapted to the user-pinned mockup, with no open direction selection or concept-seed assignment. Semantic HTML, one restrained hero reveal, reduced-motion support, existing navigation and FAQ behavior.
 
